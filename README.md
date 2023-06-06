@@ -10,7 +10,7 @@ This is a web interface for PaddleGAN's Wav2Lip model, built using the Gradio li
 cd wav2lip-webui
 
 3. Install the required dependencies:
-pip install gradio paddlepaddle paddlehub opencv-python
+pip install gradio paddlepaddle paddlehub opencv-python ppgan
 
 Make sure you have PaddlePaddle and PaddleHub installed properly.
 
@@ -18,7 +18,7 @@ Make sure you have PaddlePaddle and PaddleHub installed properly.
 
 1. Run the following command to start the interface:
 
-python app.py
+python webui.py
 
 
 2. Open your web browser and visit `http://localhost:9870`.
