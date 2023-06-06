@@ -41,4 +41,4 @@ interface = gr.Interface(
 )
 
 # Launch the interface on port 9870
-interface.launch(port=7895)
+interface.launch(server_port=7895)
