@@ -25,8 +25,8 @@ def wav2lip_interface(video, audio):
 
 # Define the input and output interfaces
 inputs = [
-    gr.inputs.Video(type="file", label="Video"),
-    gr.inputs.Audio(type="file", label="Audio")
+    gr.inputs.Video(type="filepath", label="Video"),
+    gr.inputs.Audio(type="filepath", label="Audio")
 ]
 output = gr.outputs.Video(type="file", label="Synthesized Video")
 
@@ -41,4 +41,4 @@ interface = gr.Interface(
 )
 
 # Launch the interface on port 9870
-interface.launch(port=9870)
+interface.launch(port=7895)
